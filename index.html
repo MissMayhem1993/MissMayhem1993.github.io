@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catherine McGraw | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; }
+    .brand-lavender { background-color: #DCD0FF; }
+    .brand-mint { background-color: #6ED3B2; color: white; }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- HERO SECTION -->
+
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 brand-lavender">
+    <h1 class="text-5xl font-bold mb-4">Catherine McGraw</h1>
+    <p class="text-xl mb-6 max-w-xl">
+      Freelancer • Builder • Problem Solver • Adventure-Driven Creator
+    </p>
+    <a href="#projects" class="px-6 py-3 brand-mint font-semibold rounded-lg shadow hover:opacity-90">
+      View My Projects
+    </a>
+  </section>
+
+  <!-- ABOUT SECTION -->
+
+  <section class="py-20 px-6 bg-white">
+    <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+    <p class="max-w-3xl mx-auto text-lg leading-relaxed">
+      I’m Catherine McGraw — a driven freelancer, builder, and problem-solver with a talent for 
+      turning everyday challenges into practical digital solutions. I don’t waste time, and I 
+      don’t sugar-coat the truth. If something needs doing, I figure it out and get it done.
+    </p>
+    <p class="max-w-3xl mx-auto text-lg leading-relaxed mt-6">
+      My background is a mix of hands-on work, scripting, workflow automation, freelancing, 
+      motherhood, and real-world problem solving. I specialize in creating tools that make life 
+      easier: Python scripts, small web apps, automations, and organized systems that actually 
+      work outside of theory.
+    </p>
+    <p class="max-w-3xl mx-auto text-lg leading-relaxed mt-6">
+      I’m based in Missouri with my fiancé James and my two kids. When I’m not working or studying, 
+      you’ll usually find me outdoors or rockhounding. I bring that same curiosity and determination 
+      into my work — breaking things down, digging deep, and finding what’s valuable.
+    </p>
+    <p class="max-w-3xl mx-auto text-lg leading-relaxed mt-6">
+      My goal is simple: build useful, clean, efficient tools and keep pushing my skills forward. 
+      I believe in logic, reality, and results. Everything else is noise.
+    </p>
+  </section>
+
+  <!-- SKILLS SECTION -->
+
+  <section class="py-20 px-6 bg-gray-100">
+    <h2 class="text-3xl font-bold mb-6 text-center">Skills</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto text-lg">
+      <div class="p-6 bg-white rounded-lg shadow">Python</div>
+      <div class="p-6 bg-white rounded-lg shadow">Node.js & npm</div>
+      <div class="p-6 bg-white rounded-lg shadow">Shell Scripting</div>
+      <div class="p-6 bg-white rounded-lg shadow">Git & GitHub</div>
+      <div class="p-6 bg-white rounded-lg shadow">React (beginner)</div>
+      <div class="p-6 bg-white rounded-lg shadow">Workflow Automation</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+<section id="projects" class="py-20 px-6 bg-white">
+  <h2 class="text-3xl font-bold mb-10 text-center">Projects</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto items-stretch">
+
+    <!-- Project 1 -->
+    <div class="p-6 bg-gray-50 rounded-lg shadow flex flex-col">
+      <h3 class="text-2xl font-semibold mb-3">Python Project Generator</h3>
+      <p class="mb-4">
+        A command-line tool that scaffolds a new Python project with input validation and a starter main.py file.
+      </p>
+
+      <div class="flex items-center justify-between mt-auto pt-4">
+        <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded">Python / CLI</span>
+        <a
+          href="https://github.com/MissMayhem1993/python-project-generator"
+          target="_blank"
+          class="text-sm font-semibold text-[#6ED3B2] hover:underline"
+        >
+          View on GitHub →
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="p-6 bg-gray-50 rounded-lg shadow flex flex-col">
+      <h3 class="text-2xl font-semibold mb-3">File Organizer Script</h3>
+      <p class="mb-4">
+        A Python command-line tool that automatically sorts files in a folder into subfolders by type,
+        helping streamline file management and workflow efficiency.
+      </p>
+
+      <div class="flex items-center justify-between mt-auto pt-4">
+        <span class="text-sm bg-green-100 text-green-700 px-2 py-1 rounded">Python / CLI</span>
+        <a
+          href="https://github.com/MissMayhem1993/file-organizer"
+          target="_blank"
+          class="text-sm font-semibold text-[#6ED3B2] hover:underline"
+        >
+          View on GitHub →
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="p-6 bg-gray-50 rounded-lg shadow flex flex-col">
+      <h3 class="text-2xl font-semibold mb-3">Project 3</h3>
+      <p class="mb-4">
+        Placeholder for your next project. Add description when ready.
+      </p>
+
+      <div class="flex items-center justify-between mt-auto pt-4">
+        <span class="text-sm bg-yellow-100 text-yellow-700 px-2 py-1 rounded">TBD</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- CONTACT SECTION -->
+
+  <section class="py-20 px-6 bg-gray-100">
+    <h2 class="text-3xl font-bold mb-6 text-center">Contact</h2>
+    <p class="text-center text-lg mb-6">Want to work together? Reach out anytime.</p>
+    <div class="text-center">
+      <p class="text-xl font-semibold">Email:</p>
+      <p class="text-lg">catherine93.mcgraw@gmail.com</p>
+      <p class="text-xl font-semibold mt-6">GitHub:</p>
+      <p class="text-lg">
+        <a href="https://github.com/MissMayhem1993" class="text-blue-600 hover:underline">
+          https://github.com/MissMayhem1993
+        </a>
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>
